@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudar Página com Mouse Over</title>
+    <style>
+        /* Estilo para a caixa */
+        .caixa {
+            width: 200px;
+            height: 100px;
+            background-color: #4CAF50;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        // Função que será chamada quando o mouse passar sobre a caixa
+        function mudarPagina() {
+            setTimeout(function() {
+                window.location.href = "https://www.example.com";  // Substitua pela URL para redirecionar
+            }, 1000);  // 1000 milissegundos = 1 segundo
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Bem-vindo à minha página!</h1>
+    <p>Passe o mouse sobre a caixa abaixo para mudar de página após 1 segundo.</p>
+
+    <!-- Caixa onde o evento mouseover será monitorado -->
+    <div class="caixa" onmouseover="mudarPagina()">
+        Passe o mouse aqui!
+    </div>
+
+</body>
+</html>

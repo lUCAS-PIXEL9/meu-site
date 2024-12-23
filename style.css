@@ -1,0 +1,107 @@
+/* Estilo básico da página */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #666666;
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #000;
+    transition: background-color 0.3s;
+}
+
+#sim {
+    background-color: #fff;
+}
+
+#nao {
+    background-color: #fff;
+}
+
+/* Estilos quando o mouse passar sobre as caixas */
+.caixa:hover {
+    background-color: #727272;  /* Cinza claro */
+}
+
+/* Estilo específico quando o mouse passar sobre a caixa "Não" */
+#nao:hover {
+    content: "Sim"; /* Isso faz o texto mudar para "Sim" ao passar o mouse */
+    background-color: #727272;
+}
+
+.titulo {
+    font-size: 48px; /* Tamanho grande do título */
+    font-weight: bold;
+    color: #333; /* Cor do texto */
+    text-align: center; /* Garante que o texto fique centralizado */
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* Contêiner principal que centraliza tudo */
+.container {
+    text-align: center;
+}
+
+/* Estilo para a pergunta */
+.pergunta {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Espaço entre a pergunta e as caixas */
+}
+
+/* Estilo das caixas de resposta */
+.caixa {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #000;
+    transition: background-color 0.3s;
+}
+
+#sim {
+    background-color: #fff;
+}
+
+#nao {
+    background-color: #fff;
+}
+
+/* Estilos quando o mouse passar sobre as caixas */
+
+/* Quando passar o mouse sobre a caixa "Não" */
+#nao:hover {
+    background-color: #d3d3d3;  /* Cinza claro */
+    content: "Sim"; /* Isso faz o texto mudar para "Sim" ao passar o mouse */
+}
+
+/* Quando passar o mouse sobre a caixa "Sim" */
+#sim:hover {
+    background-color: #d3d3d3;  /* Cinza claro */
+}
+
+    

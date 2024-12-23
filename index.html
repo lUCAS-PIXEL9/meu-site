@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas de Sim e Não</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       div {
+            text-align: center;
+        }
+    
+    </style>
+     <script>
+        // Função que será chamada quando o mouse passar sobre a caixa
+        function mudarPagina() {
+            setTimeout(function() {
+                window.location.href = "index3.html";  // Substitua pela URL para redirecionar
+            }, 1700);  // 1000 milissegundos = 1 segundo
+        }
+    </script>
+   
+</head>
+<body>
+  
+       <h1>VOCÊ É PALMEIRENSE?</h1>
+   
+
+    <div class="caixa" id="sim">
+       <a href="index2.html"> Sim</a>
+    </div>
+    <div class="caixa" id="nao" onmouseover="mudarPagina()">
+        Não
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
